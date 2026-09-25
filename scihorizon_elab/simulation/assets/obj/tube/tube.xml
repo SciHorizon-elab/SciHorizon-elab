@@ -1,0 +1,83 @@
+<!-- @bbox dx=0.040 dy=0.180 dz=0.042 -->
+<mujoco model="test_tube">
+   <compiler angle="radian"/>
+   <default>
+    <default class="visual">
+      <geom group="1" type="mesh" contype="0" conaffinity="0" mass="0.01"/>
+    </default>
+    <default class="collision">
+      <geom group="3" solref="0.001 2" solimp="0.998 0.998 0.001" friction="1 1 0.001" mass="0"/>
+    </default>
+    <default class="keypoint">
+      <site type="sphere" size="0.01" group="3" rgba="1 0 0 1"/>
+    </default>
+    <default class="grasppoint">
+      <site type="sphere" size="0.02" group="4" rgba="0 0 1 0.2"/>
+    </default>
+  </default>
+  <asset>
+    <material name="cap" specular="0.5" shininess="0.006280824" rgba="1. 1. 1. 100000"/>
+    <material name="body" rgba="1. 1. 1. 0.2520"/>
+    
+    <material name="CuCl2" rgba="0.141000 1.000000 0.174043 0.400000"/>
+    <material name="CuSO4" rgba="0 0.45 1 0.400000"/>
+    <material name="FeCl3" rgba="0.6475 0.5686 0.023 0.400000"/>
+    <material name="KMnO4" rgba="0.5 0 0.5 0.4"/>
+    <material name="I2" rgba="0.3 0.13 0.0 0.4"/>
+    <material name="K2CrO4" rgba="0.57 0.12 0.013 0.40000"/>
+    <material name="NaCl" rgba="1 1 1 0.3"/>
+    <material name="AgNO3" rgba="1 1 1 0.3"/>
+    <material name="BaCl2" rgba="1 1 1 0.3"/>
+    <material name="H2SO4" rgba="1 1 1 0.3"/>
+    <material name="NaOH" rgba="1 1 1 0.3"/>
+    <material name="Ba(NO3)2" rgba="1 1 1 0.3"/>
+    <material name="Pb(NO3)2" rgba="1 1 1 0.3"/>
+    <material name="Na2CO3" rgba="1 1 1 0.3"/>
+    <material name="CaCl2" rgba="1 1 1 0.3"/>
+    <material name="HCl" rgba="1 1 1 0.3"/>
+    <material name="CaSO4" rgba="1 1 1 0.7"/>
+    <mesh name="solution" file="tube_0.obj" scale="0.018 0.018 0.018"/>
+    <mesh name="cap" file="tube_1.obj" scale="0.018 0.018 0.018"/>
+    <mesh name="body" file="tube_2.obj" scale="0.018 0.018 0.018"/>
+  </asset>
+  <worldbody>
+    <!-- <light pos="0 0 7" dir="0 0 -1" directional="true" ambient="0.2 0.2 0.2" diffuse="0.5 0.5 0.5" specular="0. 0. 0." castshadow="true"/>
+    <geom name="floor" size="20 20 1" type="plane" conaffinity="1" solref="0.001 1"/> -->
+    <body name="tube" euler="1.57 0 0">
+      <geom name="solution" type="mesh" mesh="solution" material="CaSO4" class="visual"/>
+      <!-- <geom type="mesh" mesh="cap" material="cap" class="visual"/> -->
+      <geom type="mesh" mesh="body" material="body" class="visual"/>
+      <geom type="mesh" mesh="solution" class="collision"/>
+      <!-- <geom type="mesh" mesh="cap" class="collision"/> -->
+      <geom type="mesh" mesh="body" class="collision"/>
+      <geom type="box" class="collision" pos="0.002 0.13 0" size="0.018 0.018 0.018"/>
+      <!-- Flat cylindrical base so the tube can stand upright (the mesh has a spherical bottom). Diameter matches tube, height 0.001m.
+           Note: cylinder default axis is local Z, but the body is rotated euler="1.57 0 0" (90° around X),
+           so local Z points along world -Y → cylinder would lie flat. Add quat to rotate the cylinder 90° around local X
+           so its axis aligns with local Y (which becomes world +Z after the body rotation) → cylinder stands upright. -->
+      <geom name="tube_base_visual" type="cylinder" size="0.018 0.0005" pos="0 0.0005 0" quat="0.7071068 0.7071068 0 0" rgba="0 1 0 1" class="visual"/>
+      <geom name="tube_base_collision" type="cylinder" size="0.018 0.0005" pos="0 0.0005 0" quat="0.7071068 0.7071068 0 0" class="collision"/>
+      <!-- Visual plates (contype=0 conaffinity=0 → rgba renders fully). Rotated ±45° around Y. -->
+      <geom name="grip_plate_x_v_1" type="box" size="0.0105 0.025 0.005" pos="0.020 0.135 0.020" quat="0.9238795 0 -0.3826834 0" contype="0" conaffinity="0" group="2" rgba="1 0 0 0.8"/>
+      <geom name="grip_plate_y_v_1" type="box" size="0.0105 0.025 0.005" pos="-0.020 0.135 0.020" quat="0.9238795 0 0.3826834 0" contype="0" conaffinity="0" group="2" rgba="1 0 0 0.8"/>
+      <geom name="grip_plate_x_v_2" type="box" size="0.0105 0.025 0.005" pos="0.020 0.135 -0.020" quat="0.9238795 0 0.3826834 0" contype="0" conaffinity="0" group="2" rgba="1 0 0 0.8"/>
+      <geom name="grip_plate_y_v_2" type="box" size="0.0105 0.025 0.005" pos="-0.020 0.135 -0.020" quat="0.9238795 0 -0.3826834 0" contype="0" conaffinity="0" group="2" rgba="1 0 0 0.8"/>
+      <!-- Collision plates: only collide with finger pads (contype=2 conaffinity=2). Rotated ±45° around Y. -->
+      <geom name="grip_plate_x" type="box" size="0.0105 0.025 0.005" pos="0.020 0.135 0.020" quat="0.9238795 0 -0.3826834 0" contype="2" conaffinity="2" group="3" condim="6" friction="4 4 0.1" density="50" solref="0.001 1"/>
+      <geom name="grip_plate_y" type="box" size="0.0105 0.025 0.005" pos="-0.020 0.135 0.020" quat="0.9238795 0 0.3826834 0" contype="2" conaffinity="2" group="3" condim="6" friction="4 4 0.1" density="50" solref="0.001 1"/>
+      <geom name="grip_plate_x2" type="box" size="0.0105 0.025 0.005" pos="0.020 0.135 -0.020" quat="0.9238795 0 0.3826834 0" contype="2" conaffinity="2" group="3" condim="6" friction="4 4 0.1" density="50" solref="0.001 1"/>
+      <geom name="grip_plate_y2" type="box" size="0.0105 0.025 0.005" pos="-0.020 0.135 -0.020" quat="0.9238795 0 -0.3826834 0" contype="2" conaffinity="2" group="3" condim="6" friction="4 4 0.1" density="50" solref="0.001 1"/>
+    </body>
+    <site class="grasppoint" pos="0 0 0.14"/>
+    <site class="keypoint" name="top_site" pos="0 0 0.15"/>
+    <site class="keypoint" name="bottom_site" pos="0 0 0"/>
+    <!-- placepoint (group=2): 管口位置（mesh 上沿 z≈0.166），供 dispense/insert 使用 -->
+    <site name="placepoint" pos="0 0 0.175" size="0.01" group="2" rgba="0 0 1 0"/>
+    <!-- <geom type="mesh" mesh="solution" material="CuCl2" class="visual" pos="-6 0 5"/>
+    <geom type="mesh" mesh="solution" material="CuSO4" class="visual" pos="-4 0 5"/>
+    <geom type="mesh" mesh="solution" material="FeCl3" class="visual" pos="-2 0 5"/>
+    <geom type="mesh" mesh="solution" material="KMnO4" class="visual" pos="-0 0 5"/>
+    <geom type="mesh" mesh="solution" material="I2" class="visual" pos="2 0 5"/>
+    <geom type="mesh" mesh="solution" material="K2CrO4" class="visual" pos="4 0 5"/> -->
+  </worldbody>
+</mujoco>

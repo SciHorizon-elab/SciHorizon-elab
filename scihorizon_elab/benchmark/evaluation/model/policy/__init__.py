@@ -1,0 +1,1 @@
+from scihorizon_elab.benchmark.evaluation.model.policy.openvla import OpenVLA

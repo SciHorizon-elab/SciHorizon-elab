@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<!-- @bbox dx=0.131 dy=0.125 dz=0.150 -->
+<mujoco model="large_beaker">
+  <compiler boundmass="0.015" boundinertia="1e-05" angle="radian"/>
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0" density="50"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh" density="50" friction="1 1 0.001" solimp="0.998 0.998 0.001" solref="0.001 2"/>
+    </default>
+    <default class="grasppoint">
+      <site type="sphere" size="0.005" group="4" rgba="0 0 1 1"/>
+    </default>
+    <default class="boundpoint">
+      <site type="sphere" size="0.01" group="3" rgba="1 0 0 1"/>
+    </default>
+    <default class="placepoint">
+      <site type="sphere" size="0.01" group="2" rgba="0 0 1 0"/>
+    </default>
+  </default>
+  <asset>
+    <texture type="2d" name="lab_beaker_a" file="lab_beaker_a.png"/>
+    <material name="lab_beaker_a" texture="lab_beaker_a" specular="0.4" shininess="0.001" rgba="1 1 1 0.3"/>
+    <material name="CaSO4" rgba="1 1 1 0.7"/>
+    <material name="CuCl2" rgba="0.141 1.0 0.174 0.4"/>
+    <material name="CuSO4" rgba="0 0.45 1 0.4"/>
+    <material name="FeCl3" rgba="0.6475 0.5686 0.023 0.4"/>
+    <material name="KMnO4" rgba="0.5 0 0.5 0.4"/>
+    <material name="I2" rgba="0.3 0.13 0.0 0.4"/>
+    <material name="K2CrO4" rgba="0.57 0.12 0.013 0.4"/>
+    <material name="NaCl" rgba="1 1 1 0.3"/>
+    <mesh file="large_beaker.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_0.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_1.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_2.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_3.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_4.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_5.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_6.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_7.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_8.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_9.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_10.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_11.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_12.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_13.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_14.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_15.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_16.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_17.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_18.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_19.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_20.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_21.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_22.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_23.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_24.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_25.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_26.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_27.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_28.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_29.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_30.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_31.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+    <mesh file="large_beaker/large_beaker_collision_32.obj" scale="0.011901248467305649 0.011901248467305649 0.011901248467305649"/>
+  </asset>
+  <worldbody>
+    <body name="large_beaker">
+      <inertial pos="0 0 0.075000" mass="0.02" diaginertia="0.0008 0.0008 0.0005"/>
+      <geom material="lab_beaker_a" mesh="large_beaker" class="visual"/>
+      <geom mesh="large_beaker_collision_0" class="collision"/>
+      <geom mesh="large_beaker_collision_1" class="collision"/>
+      <geom mesh="large_beaker_collision_2" class="collision"/>
+      <geom mesh="large_beaker_collision_3" class="collision"/>
+      <geom mesh="large_beaker_collision_4" class="collision"/>
+      <geom mesh="large_beaker_collision_5" class="collision"/>
+      <geom mesh="large_beaker_collision_6" class="collision"/>
+      <geom mesh="large_beaker_collision_7" class="collision"/>
+      <geom mesh="large_beaker_collision_8" class="collision"/>
+      <geom mesh="large_beaker_collision_9" class="collision"/>
+      <geom mesh="large_beaker_collision_10" class="collision"/>
+      <geom mesh="large_beaker_collision_11" class="collision"/>
+      <geom mesh="large_beaker_collision_12" class="collision"/>
+      <geom mesh="large_beaker_collision_13" class="collision"/>
+      <geom mesh="large_beaker_collision_14" class="collision"/>
+      <geom mesh="large_beaker_collision_15" class="collision"/>
+      <geom mesh="large_beaker_collision_16" class="collision"/>
+      <geom mesh="large_beaker_collision_17" class="collision"/>
+      <geom mesh="large_beaker_collision_18" class="collision"/>
+      <geom mesh="large_beaker_collision_19" class="collision"/>
+      <geom mesh="large_beaker_collision_20" class="collision"/>
+      <geom mesh="large_beaker_collision_21" class="collision"/>
+      <geom mesh="large_beaker_collision_22" class="collision"/>
+      <geom mesh="large_beaker_collision_23" class="collision"/>
+      <geom mesh="large_beaker_collision_24" class="collision"/>
+      <geom mesh="large_beaker_collision_25" class="collision"/>
+      <geom mesh="large_beaker_collision_26" class="collision"/>
+      <geom mesh="large_beaker_collision_27" class="collision"/>
+      <geom mesh="large_beaker_collision_28" class="collision"/>
+      <geom mesh="large_beaker_collision_29" class="collision"/>
+      <geom mesh="large_beaker_collision_30" class="collision"/>
+      <geom mesh="large_beaker_collision_31" class="collision"/>
+      <geom mesh="large_beaker_collision_32" class="collision"/>
+      <site class="grasppoint" name="grasppoint" pos="0 0 0.1100" group="4"/>
+      <site class="placepoint" name="placepoint" pos="0 0 0.1425" group="2"/>
+      <geom name="solution" type="cylinder" size="0.055 0.0275" pos="-0.002484 0 0.0405" material="CaSO4" class="visual"/>
+      <site name="top_site" pos="0 0 0.1260" size="0.01" rgba="1 0 0 0"/>
+      <site name="bottom_site" pos="0 0 0.000000" size="0.01" rgba="0 1 0 0"/>
+      <!-- bound_sites (group=3): 容器 AABB 8 角，用于 contain() / 安全边界 -->
+      <site class="boundpoint" name="bnd_p0"   pos="-0.0655 -0.0625 0.0"   rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_px"   pos=" 0.0655 -0.0625 0.0"   rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_py"   pos="-0.0655  0.0625 0.0"   rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pxy"  pos=" 0.0655  0.0625 0.0"   rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pz"   pos="-0.0655 -0.0625 0.150" rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pxz"  pos=" 0.0655 -0.0625 0.150" rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pyz"  pos="-0.0655  0.0625 0.150" rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pxyz" pos=" 0.0655  0.0625 0.150" rgba="0 0 0 0" group="3"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,14 @@
+{
+  "uid": "basket",
+  "name": "basket",
+  "source": "local",
+  "original_path": "/tmp/basket_input/basket.glb",
+  "keyword": "basket",
+  "tags": [],
+  "categories": [],
+  "description": "Local GLB model: basket.glb",
+  "rotation": {
+    "axis": "x",
+    "degrees": 90.0
+  }
+}

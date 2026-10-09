@@ -1,0 +1,14 @@
+{
+  "uid": "square_mat_purple",
+  "name": "square_mat_purple",
+  "source": "local",
+  "original_path": "/tmp/square_mat_purple_input/square_mat_purple.glb",
+  "keyword": "square_mat_purple",
+  "tags": [],
+  "categories": [],
+  "description": "Local GLB model: square_mat_purple.glb",
+  "rotation": {
+    "axis": "x",
+    "degrees": 90.0
+  }
+}

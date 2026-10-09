@@ -1,0 +1,14 @@
+Model UID: square_mat_purple
+Model Name: square_mat_purple
+
+Source Information:
+============================================================
+Source: Local File
+Original Path: /tmp/square_mat_purple_input/square_mat_purple.glb
+File Name: square_mat_purple.glb
+Keyword/Category: square_mat_purple
+Rotation: 90.0° around X axis
+
+Processing:
+Pipeline: process_local_glb.py
+Steps: GLB->OBJ (trimesh) -> [rotate] -> MJCF (obj2mjcf) -> postprocess -> bottom-align -> validate -> size_fix

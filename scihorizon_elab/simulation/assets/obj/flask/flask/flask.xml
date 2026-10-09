@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!-- @bbox dx=0.137 dy=0.137 dz=0.200 -->
+<mujoco model="flask">
+  <asset>
+    <texture type="2d" name="lab_erlenmeyer_a" file="lab_erlenmeyer_a.png"/>
+    <material name="lab_erlenmeyer_a" texture="lab_erlenmeyer_a" specular="0.4000000000000001" shininess="0.001" rgba="1 1 1 0.3"/>
+    <mesh file="flask.obj" scale="0.013126563322826317 0.013126563322826317 0.013126563322826317"/>
+      <material name="CaSO4" rgba="1 1 1 0.7"/>
+    <material name="CuCl2" rgba="0.141 1.0 0.174 0.4"/>
+    <material name="CuSO4" rgba="0 0.45 1 0.4"/>
+    <material name="FeCl3" rgba="0.6475 0.5686 0.023 0.4"/>
+    <material name="KMnO4" rgba="0.5 0 0.5 0.4"/>
+    <material name="I2" rgba="0.3 0.13 0.0 0.4"/>
+    <material name="K2CrO4" rgba="0.57 0.12 0.013 0.4"/>
+    <material name="NaCl" rgba="1 1 1 0.3"/>
+</asset>
+  <worldbody>
+    <body name="flask">
+      <inertial pos="0 0 0.100000" mass="0.02" diaginertia="0.0008 0.0008 0.0005"/>
+      <geom material="lab_erlenmeyer_a" mesh="flask" class="visual"/>
+      <geom type="mesh" mesh="flask" class="collision"/>
+      <site class="grasppoint" pos="0.0000 0.0000 0.1820" group="4"/>
+      <!-- Anti-slip plates: 4 crossing vertical plates spanning the full flask neck+mouth.
+           Sized to match flask neck geometry: neck OD ≈ 0.044m (r=0.022), spans z=0.146~0.193.
+           Plates span z=0.146~0.200 (height 0.054m, half=0.027m), top edge flush with bottle mouth.
+           Centered at z=0.173 (slightly above grippoint z=0.17).
+           Inner edge r≈0.0185 (just inside neck wall), outer edge r≈0.039 (sticks out 0.017m for finger pad grip). -->
+      <!-- Visual plates (contype=0 conaffinity=0 → rgba renders fully). Rotated 45° around Z. -->
+      <geom name="grip_plate_x_v_1" type="box" size="0.0105 0.005 0.027" pos="0.020 0.020 0.173" quat="0.9238795 0 0 0.3826834" contype="0" conaffinity="0" group="2" rgba="1 0 0 0.8"/>
+      <geom name="grip_plate_y_v_1" type="box" size="0.005 0.0105 0.027" pos="-0.020 0.020 0.173" quat="0.9238795 0 0 0.3826834" contype="0" conaffinity="0" group="2" rgba="1 0 0 0.8"/>
+      <geom name="grip_plate_x_v_2" type="box" size="0.0105 0.005 0.027" pos="0.020 -0.020 0.173" quat="-0.9238795 0 0 0.3826834" contype="0" conaffinity="0" group="2" rgba="1 0 0 0.8"/>
+      <geom name="grip_plate_y_v_2" type="box" size="0.005 0.0105 0.027" pos="-0.020 -0.020 0.173" quat="-0.9238795 0 0 0.3826834" contype="0" conaffinity="0" group="2" rgba="1 0 0 0.8"/>
+      <!-- Collision plates: only collide with finger pads (contype=2 conaffinity=2). Rotated 45° around Z.
+           friction="4 4 0.1": sliding μ=4 resists centrifugal slip-out during pouring (paired with pads'
+           condim=4 friction="1 1 0.01", contact takes element-wise max → μ=4, torsional=4, rolling=0.1, condim=6). -->
+      <geom name="grip_plate_x" type="box" size="0.0105 0.005 0.027" pos="0.020 0.020 0.173" quat="0.9238795 0 0 0.3826834" contype="2" conaffinity="2" group="3" condim="6" friction="4 4 0.1" density="50" solref="0.001 1"/>
+      <geom name="grip_plate_y" type="box" size="0.005 0.0105 0.027" pos="-0.020 0.020 0.173" quat="0.9238795 0 0 0.3826834" contype="2" conaffinity="2" group="3" condim="6" friction="4 4 0.1" density="50" solref="0.001 1"/>
+      <geom name="grip_plate_x2" type="box" size="0.0105 0.005 0.027" pos="0.020 -0.020 0.173" quat="-0.9238795 0 0 0.3826834" contype="2" conaffinity="2" group="3" condim="6" friction="4 4 0.1" density="50" solref="0.001 1"/>
+      <geom name="grip_plate_y2" type="box" size="0.005 0.0105 0.027" pos="-0.020 -0.020 0.173" quat="-0.9238795 0 0 0.3826834" contype="2" conaffinity="2" group="3" condim="6" friction="4 4 0.1" density="50" solref="0.001 1"/>
+      <geom name="solution" type="cylinder" size="0.0569 0.0130" pos="0 0 0.0180" material="CaSO4" class="visual"/>
+      <site name="top_site" pos="0 0 0.2000" size="0.01" rgba="1 0 0 0"/>
+      <site name="bottom_site" pos="0 0 0.000000" size="0.01" rgba="0 1 0 0"/>
+      <site class="placepoint" name="placepoint" pos="0 0 0.2000" group="2"/>
+      <!-- bound_sites (group=3): 容器 AABB 8 角，用于 contain() / 安全边界 -->
+      <site class="boundpoint" name="bnd_p0"   pos="-0.0685 -0.0685 0.0"   rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_px"   pos=" 0.0685 -0.0685 0.0"   rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_py"   pos="-0.0685  0.0685 0.0"   rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pxy"  pos=" 0.0685  0.0685 0.0"   rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pz"   pos="-0.0685 -0.0685 0.200" rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pxz"  pos=" 0.0685 -0.0685 0.200" rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pyz"  pos="-0.0685  0.0685 0.200" rgba="0 0 0 0" group="3"/>
+      <site class="boundpoint" name="bnd_pxyz" pos=" 0.0685  0.0685 0.200" rgba="0 0 0 0" group="3"/>
+</body>
+  </worldbody>
+  <compiler boundmass="0.015" boundinertia="1e-05" angle="radian"/>
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0" density="50"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh" density="50" friction="1 1 0.001" solimp="0.998 0.998 0.001" solref="0.001 2"/>
+    </default>
+    <default class="grasppoint">
+      <site type="sphere" size="0.005" group="4" rgba="0 0 1 1"/>
+    </default>
+    <default class="boundpoint">
+      <site type="sphere" size="0.01" group="3" rgba="1 0 0 1"/>
+    </default>
+    <default class="placepoint">
+      <site type="sphere" size="0.01" group="2" rgba="0 0 1 0"/>
+    </default>
+  </default>
+</mujoco>

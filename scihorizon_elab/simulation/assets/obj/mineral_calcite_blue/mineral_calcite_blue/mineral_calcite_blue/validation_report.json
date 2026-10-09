@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "xml_path": "/ssd/qinmaokai/workspace/SciHorizon-ELAB/scihorizon_elab/simulation/assets/obj/mineral/mineral_calcite_blue/mineral_calcite_blue.xml",
+  "checks": {
+    "xml_load": "PASS",
+    "physics_compile": "PASS",
+    "body_found": "PASS: mineral_calcite_blue/",
+    "stability": "PASS: final_z=0.300",
+    "xy_drift": "PASS: drift=0.000m",
+    "final_position": [
+      0.0,
+      0.0,
+      0.3
+    ],
+    "video": "PASS: 90 frames, 3.0s"
+  },
+  "preview_path": null,
+  "video_path": "/ssd/qinmaokai/workspace/SciHorizon-ELAB/scihorizon_elab/simulation/assets/obj/mineral/mineral_calcite_blue/validation.mp4"
+}

@@ -1,0 +1,44 @@
+Batch started: Sat Oct 10 01:18:20 AM CST 2026
+[SKIP] 2_place_small_beaker_on_balance (already exists)
+[SKIP] 2_place_flask_on_balance (already exists)
+[SKIP] 2_place_weight_on_balance (already exists)
+[SKIP] 2_place_mineral_aragonite_on_balance (already exists)
+[SKIP] 2_place_mineral_galena_pbs_on_balance (already exists)
+[SKIP] 2_place_mineral_fluorite_on_balance (already exists)
+[SKIP] 2_place_mineral_calcite_blue_on_balance (already exists)
+[SKIP] 2_place_conical_flask_on_balance (already exists)
+[SKIP] 2_place_weight_then_small_beaker_on_balance (already exists)
+[SKIP] 2_place_small_beaker_then_weight_on_balance (already exists)
+[RUN ] 2_place_weight_then_flask_on_balance : Place the weight on the balance. Then place the flask on the balance.
+[FAIL] 2_place_weight_then_flask_on_balance (exit 0) — see /tmp/batch_2_place_weight_then_flask_on_balance.log
+[RUN ] 2_place_aragonite_then_calcite_on_balance : Place the aragonite mineral on the balance. Then place the blue calcite mineral on the balance.
+[FAIL] 2_place_aragonite_then_calcite_on_balance (exit 0) — see /tmp/batch_2_place_aragonite_then_calcite_on_balance.log
+[RUN ] 2_place_fluorite_then_halite_on_balance : Place the fluorite mineral on the balance. Then place the halite mineral on the balance.
+[FAIL] 2_place_fluorite_then_halite_on_balance (exit 0) — see /tmp/batch_2_place_fluorite_then_halite_on_balance.log
+[RUN ] 2_place_galena_then_weight_on_balance : Place the galena mineral on the balance. Then place the weight on the balance.
+[FAIL] 2_place_galena_then_weight_on_balance (exit 0) — see /tmp/batch_2_place_galena_then_weight_on_balance.log
+[RUN ] 2_place_small_beaker_then_flask_on_balance : Place the small beaker on the balance. Then place the flask on the balance.
+[FAIL] 2_place_small_beaker_then_flask_on_balance (exit 0) — see /tmp/batch_2_place_small_beaker_then_flask_on_balance.log
+[RUN ] 2_place_aragonite_then_small_beaker_on_balance : Place the aragonite mineral on the balance. Then place the small beaker on the balance.
+[ OK ] 2_place_aragonite_then_small_beaker_on_balance
+[RUN ] 2_place_halite_then_galena_on_balance : Place the halite mineral on the balance. Then place the galena mineral on the balance.
+[ OK ] 2_place_halite_then_galena_on_balance
+[RUN ] 2_place_weight_then_fluorite_on_balance : Place the weight on the balance. Then place the fluorite mineral on the balance.
+[ OK ] 2_place_weight_then_fluorite_on_balance
+[RUN ] 2_replace_aragonite_with_calcite_on_balance : Place the aragonite mineral on the balance, pick it up and drop it. Then place the blue calcite mineral on the balance.
+[FAIL] 2_replace_aragonite_with_calcite_on_balance (exit 0) — see /tmp/batch_2_replace_aragonite_with_calcite_on_balance.log
+[RUN ] 2_replace_flask_with_small_beaker_on_balance : Place the flask on the balance, pick it up and drop it. Then place the small beaker on the balance.
+[FAIL] 2_replace_flask_with_small_beaker_on_balance (exit 0) — see /tmp/batch_2_replace_flask_with_small_beaker_on_balance.log
+[RUN ] 2_place_weight_then_replace_aragonite_with_halite_on_balance : Place the weight on the balance. Then place the aragonite mineral on the balance, pick it up and drop it. Then place the halite mineral on the balance.
+[FAIL] 2_place_weight_then_replace_aragonite_with_halite_on_balance (exit 0) — see /tmp/batch_2_place_weight_then_replace_aragonite_with_halite_on_balance.log
+[RUN ] 2_place_small_beaker_on_balance_then_place_again : Place the small beaker on the balance, pick it up, and place it on the balance.
+[FAIL] 2_place_small_beaker_on_balance_then_place_again (exit 0) — see /tmp/batch_2_place_small_beaker_on_balance_then_place_again.log
+[RUN ] 2_place_weight_on_balance_then_place_again : Place the weight on the balance, pick it up, and place it on the balance.
+[FAIL] 2_place_weight_on_balance_then_place_again (exit 0) — see /tmp/batch_2_place_weight_on_balance_then_place_again.log
+[RUN ] 2_place_fluorite_on_balance_then_place_again : Place the fluorite mineral on the balance, pick it up, and place it on the balance.
+[FAIL] 2_place_fluorite_on_balance_then_place_again (exit 0) — see /tmp/batch_2_place_fluorite_on_balance_then_place_again.log
+[RUN ] 2_place_calcite_on_balance_then_place_again : Place the blue calcite mineral on the balance, pick it up, and place it on the balance.
+[FAIL] 2_place_calcite_on_balance_then_place_again (exit 0) — see /tmp/batch_2_place_calcite_on_balance_then_place_again.log
+[RUN ] 2_place_galena_then_weight_on_balance_then_remove_galena : Place the galena mineral on the balance. Then place the weight on the balance. Pick up the galena mineral and drop it.
+[FAIL] 2_place_galena_then_weight_on_balance_then_remove_galena (exit 0) — see /tmp/batch_2_place_galena_then_weight_on_balance_then_remove_galena.log
+[RUN ] 2_place_aragonite_then_calcite_on_balance_then_remove_both : Place the aragonite mineral on the balance. Then place the blue calcite mineral on the balance. Pick up the aragonite mineral and drop it. Then pick up the blue calcite mineral and drop it.

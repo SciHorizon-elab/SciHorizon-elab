@@ -1,0 +1,153 @@
+<!-- @bbox dx=0.235 dy=0.460 dz=0.101 -->
+<mujoco model="test_tube_stand">
+   <compiler angle="radian"/>
+   <default>
+    <default class="visual">
+      <geom group="1" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" solref="0.001 2"/>
+    </default>
+    <default class="keypoint">
+      <site type="sphere" size="0.01" group="3" rgba="1 0 0 1"/>
+    </default>
+    <default class="grasppoint">
+      <site type="sphere" size="0.01" group="4" rgba="0 0 1 0.2"/>
+    </default>
+    <default class="placepoint">
+      <site type="sphere" size="0.01" group="2" rgba="0 0 1 0"/>
+    </default>
+  </default>
+  <asset>
+    <material name="material_0" specular="0.50196078" shininess="0.159999985" rgba="0.50196078 0.50196078 0.50196078 1.0"/>
+    <mesh file="test_tube_stand.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_0.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_1.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_2.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_3.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_4.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_5.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_6.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_7.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_8.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_9.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_10.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_11.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_12.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_13.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_14.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_15.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_16.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_17.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_18.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_19.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_20.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_21.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_22.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_23.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_24.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_25.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_26.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_27.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_28.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_29.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_30.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_31.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_32.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_33.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_34.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_35.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_36.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_37.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_38.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_39.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_40.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_41.obj" scale="2 2 2"/>
+    <mesh file="test_tube_stand_collision_42.obj" scale="2 2 2"/>
+  </asset>
+  <worldbody>
+    <body name="test_tube_stand" euler="0 0 1.57">
+      <geom material="material_0" type="mesh" mesh="test_tube_stand" class="visual"/>
+      <geom type="box" pos="0 0 0.0285" size="0.02 0.22 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0.093 0 0.0285" size="0.02 0.22 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="-0.093 0 0.0285" size="0.02 0.22 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 0 0.096" size="0.02 0.22 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0.093 0 0.096" size="0.02 0.22 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="-0.093 0 0.096" size="0.02 0.22 0.002" rgba="1 1 1 1" class="collision"/>
+
+      <geom type="box" pos="0 0.04 0.096" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 0.125 0.096" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 0.205 0.096" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 -0.04 0.096" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 -0.125 0.096" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 -0.205 0.096" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+
+      <geom type="box" pos="0 0.04 0.0285" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 0.125 0.0285" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 0.205 0.0285" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 -0.04 0.0285" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 -0.125 0.0285" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 -0.205 0.0285" size="0.08 0.019 0.002" rgba="1 1 1 1" class="collision"/>
+
+      <geom type="box" pos="0 0.22 0.048" size="0.12 0.002 0.048" rgba="1 1 1 1" class="collision"/>
+      <geom type="box" pos="0 -0.22 0.048" size="0.12 0.002 0.048" rgba="1 1 1 1" class="collision"/>
+      
+      <!-- <geom type="mesh" mesh="test_tube_stand_collision_0" rgba="0.5676876428264828 0.8632127970516512 0.8984149416815155 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_1" rgba="0.524500077235998 0.9206973094932038 0.6702931208290716 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_2" rgba="0.20201314897830025 0.8984911507408957 0.9933912650815412 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_3" rgba="0.7130600055818352 0.682533803781786 0.1567926629864923 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_4" rgba="0.01016285992522159 0.9757923236903517 0.21932980731674212 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_5" rgba="0.5633690055855439 0.6461434514600906 0.5516615857348753 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_6" rgba="0.16752077818133693 0.8955338141780433 0.549839270583877 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_7" rgba="0.8643177232102813 0.7098601827428535 0.2516851779785737 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_8" rgba="0.599373115509157 0.3884357048393685 0.11714842444614193 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_9" rgba="0.27772981700338295 0.7420196298008302 0.38765057878201825 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_10" rgba="0.726821374608803 0.9725684533134117 0.32463820794765197 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_11" rgba="0.9766580446270385 0.04672297171051809 0.4749319414815538 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_12" rgba="0.5632128201691509 0.46704805742762745 0.14315908802801613 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_13" rgba="0.41114244353508433 0.06916382507583052 0.34518238536769097 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_14" rgba="0.7387029906913726 0.1979694417664284 0.43659462226419454 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_15" rgba="0.49097128514309907 0.9343048183084698 0.6428100427544355 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_16" rgba="0.6729176734637896 0.3919652147006065 0.5803827257990466 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_17" rgba="0.2683659610960696 0.9557901229602604 0.5732713016623529 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_18" rgba="0.09812222088127143 0.4351272995608879 0.02635931875618225 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_19" rgba="0.43216597264612056 0.28551759445783953 0.48724486429530645 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_20" rgba="0.7566657062983834 0.007036994972749677 0.1723871184006207 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_21" rgba="0.08439437650711556 0.7927506306836134 0.8115333446805637 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_22" rgba="0.7122802111323572 0.6181341464915366 0.3463343088304208 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_23" rgba="0.8421351077189723 0.5218647824765416 0.6056439082365437 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_24" rgba="0.013654892185557599 0.9084747848220652 0.7376780242757338 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_25" rgba="0.2870591373129291 0.650321186445228 0.5053285231375068 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_26" rgba="0.8454846337751175 0.12750848384229085 0.07641556056472709 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_27" rgba="0.03378629504409025 0.9634319055161082 0.9906008685702195 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_28" rgba="0.3830496607661684 0.47422014274581115 0.07244753722399 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_29" rgba="0.5724332166140836 0.9929995611821036 0.6202829638716565 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_30" rgba="0.13137677839833284 0.4765662777063896 0.13339222077429214 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_31" rgba="0.21973560280594984 0.6749150084307448 0.9733435158303394 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_32" rgba="0.531369311417158 0.6750316413549702 0.2504881965006951 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_33" rgba="0.49712886948615465 0.15347955429324645 0.7762816894440115 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_34" rgba="0.9703031196428786 0.5827943888862444 0.30226264886646836 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_35" rgba="0.3872972213281458 0.4696593437957908 0.6804888215459329 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_36" rgba="0.03849118461016299 0.33547935754052316 0.5681060675022455 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_37" rgba="0.9042787656743949 0.22884430923268484 0.6620773900348198 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_38" rgba="0.19440498012194984 0.001724771675982173 0.8483658771951333 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_39" rgba="0.33485120721527795 0.4656314984279125 0.3035209166392441 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_40" rgba="0.5753876511054045 0.11059674890476401 0.32899666750870016 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_41" rgba="0.9410112423868396 0.6507941228827888 0.2395930175401646 1" class="collision"/>
+      <geom type="mesh" mesh="test_tube_stand_collision_42" rgba="0.546774914538221 0.8777291012721288 0.2338969967067791 1" class="collision"/> -->
+    </body>
+    <site class="keypoint" pos="-0.2 -0.1  -0.01"/>
+    <site class="keypoint" pos="0.2 0.1 0.12"/>
+    <!-- 5x2 placepoint grid: col_pos=[-0.16, -0.08, 0, 0.08, 0.16], row_pos=[-0.05, 0.05] -->
+    <site class="placepoint" pos="-0.16 -0.05 0.18"/>
+    <site class="placepoint" pos="-0.08 -0.05 0.18"/>
+    <site class="placepoint" pos="0.0  -0.05 0.18"/>
+    <site class="placepoint" pos="0.08 -0.05 0.18"/>
+    <site class="placepoint" pos="0.16 -0.05 0.18"/>
+    <site class="placepoint" pos="-0.16  0.05 0.18"/>
+    <site class="placepoint" pos="-0.08  0.05 0.18"/>
+    <site class="placepoint" pos="0.0   0.05 0.18"/>
+    <site class="placepoint" pos="0.08  0.05 0.18"/>
+    <site class="placepoint" pos="0.16  0.05 0.18"/>
+  </worldbody>
+</mujoco>

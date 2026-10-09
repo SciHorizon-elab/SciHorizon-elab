@@ -1,0 +1,364 @@
+<?xml version="1.0" ?>
+<!-- @bbox dx=0.0698 dy=0.0700 dz=0.0533 -->
+<mujoco model="mineral_halite">
+  <asset>
+    <texture type="2d" name="Halite" file="Halite.png"/>
+    <material name="Halite" texture="Halite" specular="0.4000000000000001" shininess="0.001"/>
+    <mesh file="mineral_halite.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_0.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_1.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_2.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_3.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_4.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_5.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_6.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_7.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_8.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_9.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_10.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_11.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_12.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_13.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_14.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_15.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_16.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_17.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_18.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_19.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_20.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_21.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_22.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_23.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_24.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_25.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_26.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_27.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_28.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_29.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_30.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_31.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_32.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_33.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_34.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_35.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_36.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_37.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_38.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_39.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_40.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_41.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_42.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_43.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_44.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_45.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_46.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_47.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_48.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_49.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_50.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_51.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_52.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_53.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_54.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_55.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_56.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_57.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_58.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_59.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_60.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_61.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_62.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_63.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_64.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_65.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_66.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_67.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_68.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_69.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_70.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_71.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_72.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_73.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_74.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_75.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_76.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_77.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_78.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_79.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_80.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_81.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_82.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_83.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_84.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_85.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_86.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_87.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_88.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_89.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_90.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_91.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_92.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_93.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_94.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_95.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_96.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_97.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_98.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_99.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_100.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_101.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_102.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_103.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_104.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_105.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_106.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_107.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_108.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_109.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_110.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_111.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_112.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_113.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_114.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_115.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_116.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_117.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_118.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_119.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_120.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_121.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_122.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_123.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_124.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_125.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_126.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_127.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_128.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_129.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_130.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_131.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_132.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_133.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_134.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_135.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_136.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_137.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_138.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_139.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_140.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_141.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_142.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_143.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_144.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_145.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_146.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_147.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_148.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_149.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_150.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_151.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_152.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_153.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_154.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_155.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_156.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_157.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_158.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_159.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_160.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+    <mesh file="mineral_halite/mineral_halite_collision_161.obj" scale="0.02152064548999488 0.02152064548999488 0.02152064548999488"/>
+  </asset>
+  <worldbody>
+    <body name="mineral_halite">
+      <inertial pos="0 0 0.026665" mass="0.02" diaginertia="0.0008 0.0008 0.0005"/>
+      <geom material="Halite" mesh="mineral_halite" class="visual"/>
+      <geom mesh="mineral_halite_collision_0"  class="collision"/>
+      <geom mesh="mineral_halite_collision_1"  class="collision"/>
+      <geom mesh="mineral_halite_collision_2"  class="collision"/>
+      <geom mesh="mineral_halite_collision_3"  class="collision"/>
+      <geom mesh="mineral_halite_collision_4"  class="collision"/>
+      <geom mesh="mineral_halite_collision_5"  class="collision"/>
+      <geom mesh="mineral_halite_collision_6"  class="collision"/>
+      <geom mesh="mineral_halite_collision_7"  class="collision"/>
+      <geom mesh="mineral_halite_collision_8"  class="collision"/>
+      <geom mesh="mineral_halite_collision_9"  class="collision"/>
+      <geom mesh="mineral_halite_collision_10"  class="collision"/>
+      <geom mesh="mineral_halite_collision_11"  class="collision"/>
+      <geom mesh="mineral_halite_collision_12"  class="collision"/>
+      <geom mesh="mineral_halite_collision_13"  class="collision"/>
+      <geom mesh="mineral_halite_collision_14"  class="collision"/>
+      <geom mesh="mineral_halite_collision_15"  class="collision"/>
+      <geom mesh="mineral_halite_collision_16"  class="collision"/>
+      <geom mesh="mineral_halite_collision_17"  class="collision"/>
+      <geom mesh="mineral_halite_collision_18"  class="collision"/>
+      <geom mesh="mineral_halite_collision_19"  class="collision"/>
+      <geom mesh="mineral_halite_collision_20"  class="collision"/>
+      <geom mesh="mineral_halite_collision_21"  class="collision"/>
+      <geom mesh="mineral_halite_collision_22"  class="collision"/>
+      <geom mesh="mineral_halite_collision_23"  class="collision"/>
+      <geom mesh="mineral_halite_collision_24"  class="collision"/>
+      <geom mesh="mineral_halite_collision_25"  class="collision"/>
+      <geom mesh="mineral_halite_collision_26"  class="collision"/>
+      <geom mesh="mineral_halite_collision_27"  class="collision"/>
+      <geom mesh="mineral_halite_collision_28"  class="collision"/>
+      <geom mesh="mineral_halite_collision_29"  class="collision"/>
+      <geom mesh="mineral_halite_collision_30"  class="collision"/>
+      <geom mesh="mineral_halite_collision_31"  class="collision"/>
+      <geom mesh="mineral_halite_collision_32"  class="collision"/>
+      <geom mesh="mineral_halite_collision_33"  class="collision"/>
+      <geom mesh="mineral_halite_collision_34"  class="collision"/>
+      <geom mesh="mineral_halite_collision_35"  class="collision"/>
+      <geom mesh="mineral_halite_collision_36"  class="collision"/>
+      <geom mesh="mineral_halite_collision_37"  class="collision"/>
+      <geom mesh="mineral_halite_collision_38"  class="collision"/>
+      <geom mesh="mineral_halite_collision_39"  class="collision"/>
+      <geom mesh="mineral_halite_collision_40"  class="collision"/>
+      <geom mesh="mineral_halite_collision_41"  class="collision"/>
+      <geom mesh="mineral_halite_collision_42"  class="collision"/>
+      <geom mesh="mineral_halite_collision_43"  class="collision"/>
+      <geom mesh="mineral_halite_collision_44"  class="collision"/>
+      <geom mesh="mineral_halite_collision_45"  class="collision"/>
+      <geom mesh="mineral_halite_collision_46"  class="collision"/>
+      <geom mesh="mineral_halite_collision_47"  class="collision"/>
+      <geom mesh="mineral_halite_collision_48"  class="collision"/>
+      <geom mesh="mineral_halite_collision_49"  class="collision"/>
+      <geom mesh="mineral_halite_collision_50"  class="collision"/>
+      <geom mesh="mineral_halite_collision_51"  class="collision"/>
+      <geom mesh="mineral_halite_collision_52"  class="collision"/>
+      <geom mesh="mineral_halite_collision_53"  class="collision"/>
+      <geom mesh="mineral_halite_collision_54"  class="collision"/>
+      <geom mesh="mineral_halite_collision_55"  class="collision"/>
+      <geom mesh="mineral_halite_collision_56"  class="collision"/>
+      <geom mesh="mineral_halite_collision_57"  class="collision"/>
+      <geom mesh="mineral_halite_collision_58"  class="collision"/>
+      <geom mesh="mineral_halite_collision_59"  class="collision"/>
+      <geom mesh="mineral_halite_collision_60"  class="collision"/>
+      <geom mesh="mineral_halite_collision_61"  class="collision"/>
+      <geom mesh="mineral_halite_collision_62"  class="collision"/>
+      <geom mesh="mineral_halite_collision_63"  class="collision"/>
+      <geom mesh="mineral_halite_collision_64"  class="collision"/>
+      <geom mesh="mineral_halite_collision_65"  class="collision"/>
+      <geom mesh="mineral_halite_collision_66"  class="collision"/>
+      <geom mesh="mineral_halite_collision_67"  class="collision"/>
+      <geom mesh="mineral_halite_collision_68"  class="collision"/>
+      <geom mesh="mineral_halite_collision_69"  class="collision"/>
+      <geom mesh="mineral_halite_collision_70"  class="collision"/>
+      <geom mesh="mineral_halite_collision_71"  class="collision"/>
+      <geom mesh="mineral_halite_collision_72"  class="collision"/>
+      <geom mesh="mineral_halite_collision_73"  class="collision"/>
+      <geom mesh="mineral_halite_collision_74"  class="collision"/>
+      <geom mesh="mineral_halite_collision_75"  class="collision"/>
+      <geom mesh="mineral_halite_collision_76"  class="collision"/>
+      <geom mesh="mineral_halite_collision_77"  class="collision"/>
+      <geom mesh="mineral_halite_collision_78"  class="collision"/>
+      <geom mesh="mineral_halite_collision_79"  class="collision"/>
+      <geom mesh="mineral_halite_collision_80"  class="collision"/>
+      <geom mesh="mineral_halite_collision_81"  class="collision"/>
+      <geom mesh="mineral_halite_collision_82"  class="collision"/>
+      <geom mesh="mineral_halite_collision_83"  class="collision"/>
+      <geom mesh="mineral_halite_collision_84"  class="collision"/>
+      <geom mesh="mineral_halite_collision_85"  class="collision"/>
+      <geom mesh="mineral_halite_collision_86"  class="collision"/>
+      <geom mesh="mineral_halite_collision_87"  class="collision"/>
+      <geom mesh="mineral_halite_collision_88"  class="collision"/>
+      <geom mesh="mineral_halite_collision_89"  class="collision"/>
+      <geom mesh="mineral_halite_collision_90"  class="collision"/>
+      <geom mesh="mineral_halite_collision_91"  class="collision"/>
+      <geom mesh="mineral_halite_collision_92"  class="collision"/>
+      <geom mesh="mineral_halite_collision_93"  class="collision"/>
+      <geom mesh="mineral_halite_collision_94"  class="collision"/>
+      <geom mesh="mineral_halite_collision_95"  class="collision"/>
+      <geom mesh="mineral_halite_collision_96"  class="collision"/>
+      <geom mesh="mineral_halite_collision_97"  class="collision"/>
+      <geom mesh="mineral_halite_collision_98"  class="collision"/>
+      <geom mesh="mineral_halite_collision_99"  class="collision"/>
+      <geom mesh="mineral_halite_collision_100"  class="collision"/>
+      <geom mesh="mineral_halite_collision_101"  class="collision"/>
+      <geom mesh="mineral_halite_collision_102"  class="collision"/>
+      <geom mesh="mineral_halite_collision_103"  class="collision"/>
+      <geom mesh="mineral_halite_collision_104"  class="collision"/>
+      <geom mesh="mineral_halite_collision_105"  class="collision"/>
+      <geom mesh="mineral_halite_collision_106"  class="collision"/>
+      <geom mesh="mineral_halite_collision_107"  class="collision"/>
+      <geom mesh="mineral_halite_collision_108"  class="collision"/>
+      <geom mesh="mineral_halite_collision_109"  class="collision"/>
+      <geom mesh="mineral_halite_collision_110"  class="collision"/>
+      <geom mesh="mineral_halite_collision_111"  class="collision"/>
+      <geom mesh="mineral_halite_collision_112"  class="collision"/>
+      <geom mesh="mineral_halite_collision_113"  class="collision"/>
+      <geom mesh="mineral_halite_collision_114"  class="collision"/>
+      <geom mesh="mineral_halite_collision_115"  class="collision"/>
+      <geom mesh="mineral_halite_collision_116"  class="collision"/>
+      <geom mesh="mineral_halite_collision_117"  class="collision"/>
+      <geom mesh="mineral_halite_collision_118"  class="collision"/>
+      <geom mesh="mineral_halite_collision_119"  class="collision"/>
+      <geom mesh="mineral_halite_collision_120"  class="collision"/>
+      <geom mesh="mineral_halite_collision_121"  class="collision"/>
+      <geom mesh="mineral_halite_collision_122"  class="collision"/>
+      <geom mesh="mineral_halite_collision_123"  class="collision"/>
+      <geom mesh="mineral_halite_collision_124"  class="collision"/>
+      <geom mesh="mineral_halite_collision_125"  class="collision"/>
+      <geom mesh="mineral_halite_collision_126"  class="collision"/>
+      <geom mesh="mineral_halite_collision_127"  class="collision"/>
+      <geom mesh="mineral_halite_collision_128"  class="collision"/>
+      <geom mesh="mineral_halite_collision_129"  class="collision"/>
+      <geom mesh="mineral_halite_collision_130"  class="collision"/>
+      <geom mesh="mineral_halite_collision_131"  class="collision"/>
+      <geom mesh="mineral_halite_collision_132"  class="collision"/>
+      <geom mesh="mineral_halite_collision_133"  class="collision"/>
+      <geom mesh="mineral_halite_collision_134"  class="collision"/>
+      <geom mesh="mineral_halite_collision_135"  class="collision"/>
+      <geom mesh="mineral_halite_collision_136"  class="collision"/>
+      <geom mesh="mineral_halite_collision_137"  class="collision"/>
+      <geom mesh="mineral_halite_collision_138"  class="collision"/>
+      <geom mesh="mineral_halite_collision_139"  class="collision"/>
+      <geom mesh="mineral_halite_collision_140"  class="collision"/>
+      <geom mesh="mineral_halite_collision_141"  class="collision"/>
+      <geom mesh="mineral_halite_collision_142"  class="collision"/>
+      <geom mesh="mineral_halite_collision_143"  class="collision"/>
+      <geom mesh="mineral_halite_collision_144"  class="collision"/>
+      <geom mesh="mineral_halite_collision_145"  class="collision"/>
+      <geom mesh="mineral_halite_collision_146"  class="collision"/>
+      <geom mesh="mineral_halite_collision_147"  class="collision"/>
+      <geom mesh="mineral_halite_collision_148"  class="collision"/>
+      <geom mesh="mineral_halite_collision_149"  class="collision"/>
+      <geom mesh="mineral_halite_collision_150"  class="collision"/>
+      <geom mesh="mineral_halite_collision_151"  class="collision"/>
+      <geom mesh="mineral_halite_collision_152"  class="collision"/>
+      <geom mesh="mineral_halite_collision_153"  class="collision"/>
+      <geom mesh="mineral_halite_collision_154"  class="collision"/>
+      <geom mesh="mineral_halite_collision_155"  class="collision"/>
+      <geom mesh="mineral_halite_collision_156"  class="collision"/>
+      <geom mesh="mineral_halite_collision_157"  class="collision"/>
+      <geom mesh="mineral_halite_collision_158"  class="collision"/>
+      <geom mesh="mineral_halite_collision_159"  class="collision"/>
+      <geom mesh="mineral_halite_collision_160"  class="collision"/>
+      <geom mesh="mineral_halite_collision_161"  class="collision"/>
+          <site class="grasppoint" group="4" pos="0.0000 0.0000 0.0267"/>
+      <site class="boundpoint" group="3" name="bnd_p0"   pos="-0.0349 -0.0350 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_px"   pos="0.0349 -0.0350 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_py"   pos="-0.0349 0.0350 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_pxy"  pos="0.0349 0.0350 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_pz"   pos="-0.0349 -0.0350 0.0533"/>
+      <site class="boundpoint" group="3" name="bnd_pxz"  pos="0.0349 -0.0350 0.0533"/>
+      <site class="boundpoint" group="3" name="bnd_pyz"  pos="-0.0349 0.0350 0.0533"/>
+      <site class="boundpoint" group="3" name="bnd_pxyz" pos="0.0349 0.0350 0.0533"/>
+      <site name="top_site" pos="0 0 0.0533" size="0.01" rgba="1 0 0 0"/>
+      <site name="bottom_site" pos="0 0 0" size="0.01" rgba="0 1 0 0"/>
+</body>
+  </worldbody>
+  <compiler boundmass="0.015" boundinertia="1e-05" angle="radian"/>
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0" density="50"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh" density="50" friction="1.5 0.1 0.1" solimp="0.9 0.95 0.001" solref="0.02 1"/>
+    </default>
+    <default class="grasppoint">
+      <site type="sphere" size="0.005" group="4" rgba="0 0 1 1"/>
+    </default>
+        <default class="boundpoint"><site type="sphere" size="0.01" group="3" rgba="1 0 0 1"/></default>
+      <default class="placepoint"><site type="sphere" size="0.01" group="2" rgba="0 0 1 0"/></default>
+</default>
+</mujoco>

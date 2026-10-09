@@ -1,0 +1,14 @@
+{
+  "uid": "weight",
+  "name": "weight",
+  "source": "local",
+  "original_path": "/tmp/weight_input/weight.glb",
+  "keyword": "weight",
+  "tags": [],
+  "categories": [],
+  "description": "Local GLB model: weight.glb",
+  "rotation": {
+    "axis": "x",
+    "degrees": 90.0
+  }
+}

@@ -1,0 +1,233 @@
+<?xml version="1.0" ?>
+<!-- @bbox dx=0.4500 dy=0.1878 dz=0.3051 -->
+<mujoco model="balance">
+  <asset>
+    <texture type="2d" name="material_0" file="material_0.png"/>
+    <material name="material_0" texture="material_0" specular="0.4000000000000001" shininess="0.001"/>
+    <mesh file="balance.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_0.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_1.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_2.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_3.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_4.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_5.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_6.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_7.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_8.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_9.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_10.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_11.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_12.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_13.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_14.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_15.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_16.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_17.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_18.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_19.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_20.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_21.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_22.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_23.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_24.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_25.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_26.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_27.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_28.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_29.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_30.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_31.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_32.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_33.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_34.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_35.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_36.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_37.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_38.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_39.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_40.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_41.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_42.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_43.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_44.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_45.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_46.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_47.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_48.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_49.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_50.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_51.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_52.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_53.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_54.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_55.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_56.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_57.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_58.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_59.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_60.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_61.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_62.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_63.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_64.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_65.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_66.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_67.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_68.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_69.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_70.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_71.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_72.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_73.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_74.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_75.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_76.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_77.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_78.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_79.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_80.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_81.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_82.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_83.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_84.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_85.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_86.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_87.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_88.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_89.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_90.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_91.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_92.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+    <mesh file="balance_collision_93.obj" scale="0.020382184973508424 0.020382184973508424 0.020382184973508424"/>
+  </asset>
+  <worldbody>
+    <body name="balance">
+      <inertial pos="0.0000 0.0000 0.1525" mass="1.0" diaginertia="0.004 0.004 0.002"/>
+      <geom material="material_0" mesh="balance" class="visual"/>
+      <geom mesh="balance_collision_0"  class="collision"/>
+      <geom mesh="balance_collision_1"  class="collision"/>
+      <geom mesh="balance_collision_2"  class="collision"/>
+      <geom mesh="balance_collision_3"  class="collision"/>
+      <geom mesh="balance_collision_4"  class="collision"/>
+      <geom mesh="balance_collision_5"  class="collision"/>
+      <geom mesh="balance_collision_6"  class="collision"/>
+      <geom mesh="balance_collision_7"  class="collision"/>
+      <geom mesh="balance_collision_8"  class="collision"/>
+      <geom mesh="balance_collision_9"  class="collision"/>
+      <geom mesh="balance_collision_10"  class="collision"/>
+      <geom mesh="balance_collision_11"  class="collision"/>
+      <geom mesh="balance_collision_12"  class="collision"/>
+      <geom mesh="balance_collision_13"  class="collision"/>
+      <geom mesh="balance_collision_14"  class="collision"/>
+      <geom mesh="balance_collision_15"  class="collision"/>
+      <geom mesh="balance_collision_16"  class="collision"/>
+      <geom mesh="balance_collision_17"  class="collision"/>
+      <geom mesh="balance_collision_18"  class="collision"/>
+      <geom mesh="balance_collision_19"  class="collision"/>
+      <geom mesh="balance_collision_20"  class="collision"/>
+      <geom mesh="balance_collision_21"  class="collision"/>
+      <geom mesh="balance_collision_22"  class="collision"/>
+      <geom mesh="balance_collision_23"  class="collision"/>
+      <geom mesh="balance_collision_24"  class="collision"/>
+      <geom mesh="balance_collision_25"  class="collision"/>
+      <geom mesh="balance_collision_26"  class="collision"/>
+      <geom mesh="balance_collision_27"  class="collision"/>
+      <geom mesh="balance_collision_28"  class="collision"/>
+      <geom mesh="balance_collision_29"  class="collision"/>
+      <geom mesh="balance_collision_30"  class="collision"/>
+      <geom mesh="balance_collision_31"  class="collision"/>
+      <geom mesh="balance_collision_32"  class="collision"/>
+      <geom mesh="balance_collision_33"  class="collision"/>
+      <geom mesh="balance_collision_34"  class="collision"/>
+      <geom mesh="balance_collision_35"  class="collision"/>
+      <geom mesh="balance_collision_36"  class="collision"/>
+      <geom mesh="balance_collision_37"  class="collision"/>
+      <geom mesh="balance_collision_38"  class="collision"/>
+      <geom mesh="balance_collision_39"  class="collision"/>
+      <geom mesh="balance_collision_40"  class="collision"/>
+      <geom mesh="balance_collision_41"  class="collision"/>
+      <geom mesh="balance_collision_42"  class="collision"/>
+      <geom mesh="balance_collision_43"  class="collision"/>
+      <geom mesh="balance_collision_44"  class="collision"/>
+      <geom mesh="balance_collision_45"  class="collision"/>
+      <geom mesh="balance_collision_46"  class="collision"/>
+      <geom mesh="balance_collision_47"  class="collision"/>
+      <geom mesh="balance_collision_48"  class="collision"/>
+      <geom mesh="balance_collision_49"  class="collision"/>
+      <geom mesh="balance_collision_50"  class="collision"/>
+      <geom mesh="balance_collision_51"  class="collision"/>
+      <geom mesh="balance_collision_52"  class="collision"/>
+      <geom mesh="balance_collision_53"  class="collision"/>
+      <geom mesh="balance_collision_54"  class="collision"/>
+      <geom mesh="balance_collision_55"  class="collision"/>
+      <geom mesh="balance_collision_56"  class="collision"/>
+      <geom mesh="balance_collision_57"  class="collision"/>
+      <geom mesh="balance_collision_58"  class="collision"/>
+      <geom mesh="balance_collision_59"  class="collision"/>
+      <geom mesh="balance_collision_60"  class="collision"/>
+      <geom mesh="balance_collision_61"  class="collision"/>
+      <geom mesh="balance_collision_62"  class="collision"/>
+      <geom mesh="balance_collision_63"  class="collision"/>
+      <geom mesh="balance_collision_64"  class="collision"/>
+      <geom mesh="balance_collision_65"  class="collision"/>
+      <geom mesh="balance_collision_66"  class="collision"/>
+      <geom mesh="balance_collision_67"  class="collision"/>
+      <geom mesh="balance_collision_68"  class="collision"/>
+      <geom mesh="balance_collision_69"  class="collision"/>
+      <geom mesh="balance_collision_70"  class="collision"/>
+      <geom mesh="balance_collision_71"  class="collision"/>
+      <geom mesh="balance_collision_72"  class="collision"/>
+      <geom mesh="balance_collision_73"  class="collision"/>
+      <geom mesh="balance_collision_74"  class="collision"/>
+      <geom mesh="balance_collision_75"  class="collision"/>
+      <geom mesh="balance_collision_76"  class="collision"/>
+      <geom mesh="balance_collision_77"  class="collision"/>
+      <geom mesh="balance_collision_78"  class="collision"/>
+      <geom mesh="balance_collision_79"  class="collision"/>
+      <geom mesh="balance_collision_80"  class="collision"/>
+      <geom mesh="balance_collision_81"  class="collision"/>
+      <geom mesh="balance_collision_82"  class="collision"/>
+      <geom mesh="balance_collision_83"  class="collision"/>
+      <geom mesh="balance_collision_84"  class="collision"/>
+      <geom mesh="balance_collision_85"  class="collision"/>
+      <geom mesh="balance_collision_86"  class="collision"/>
+      <geom mesh="balance_collision_87"  class="collision"/>
+      <geom mesh="balance_collision_88"  class="collision"/>
+      <geom mesh="balance_collision_89"  class="collision"/>
+      <geom mesh="balance_collision_90"  class="collision"/>
+      <geom mesh="balance_collision_91"  class="collision"/>
+      <geom mesh="balance_collision_92"  class="collision"/>
+      <geom mesh="balance_collision_93"  class="collision"/>
+          <site class="boundpoint" group="3" name="bnd_p0"   pos="-0.2250 -0.0939 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_px"   pos="0.2250 -0.0939 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_py"   pos="-0.2250 0.0939 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_pxy"  pos="0.2250 0.0939 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_pz"   pos="-0.2250 -0.0939 0.3051"/>
+      <site class="boundpoint" group="3" name="bnd_pxz"  pos="0.2250 -0.0939 0.3051"/>
+      <site class="boundpoint" group="3" name="bnd_pyz"  pos="-0.2250 0.0939 0.3051"/>
+      <site class="boundpoint" group="3" name="bnd_pxyz" pos="0.2250 0.0939 0.3051"/>
+      <site class="placepoint" group="2" name="place_tray_left"  pos="-0.1305 0.0000 0.2160"/>
+      <site class="placepoint" group="2" name="place_tray_right" pos="0.1305 0.0000 0.2160"/>
+      <site name="top_site" pos="0.0000 0.0000 0.3051" size="0.01" rgba="1 0 0 0"/>
+      <site name="bottom_site" pos="0.0000 0.0000 0.0000" size="0.01" rgba="0 1 0 0"/>
+</body>
+  </worldbody>
+  <compiler boundmass="0.015" boundinertia="1e-05" angle="radian"/>
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0" density="50"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh" density="50" friction="1.5 0.1 0.1" solimp="0.9 0.95 0.001" solref="0.02 1"/>
+    </default>
+    <default class="boundpoint">
+      <site type="sphere" size="0.01" group="3" rgba="1 0 0 1"/>
+    </default>
+    <default class="placepoint">
+      <site type="sphere" size="0.01" group="2" rgba="0 0 1 0"/>
+    </default>
+    <default class="grasppoint">
+      <site type="sphere" size="0.005" group="4" rgba="0 0 1 1"/>
+    </default>
+  </default>
+</mujoco>

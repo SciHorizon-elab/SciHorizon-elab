@@ -1,0 +1,55 @@
+<!-- @bbox dx=0.023 dy=0.023 dz=0.129 -->
+<!-- Migrated from AutoBio (centrifuge_15ml_screw), simplified to a single rigid body:
+     body + cap merged (no screw-thread SDF physics). Collision uses cylinder primitives.
+     Geometry: tube body z 0~0.1186 (r 7.8mm, skirt r 8.4mm), cap z 0.1186~0.1288 (r 11.3mm). -->
+<mujoco model="centrifuge_tube_15ml">
+  <compiler angle="radian"/>
+  <default>
+    <default class="visual">
+      <geom group="1" type="mesh" contype="0" conaffinity="0" mass="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" solref="0.001 2" solimp="0.998 0.998 0.001" friction="1 1 0.001"/>
+    </default>
+    <default class="keypoint">
+      <site type="sphere" size="0.005" group="3" rgba="1 0 0 1"/>
+    </default>
+    <default class="grasppoint">
+      <site type="sphere" size="0.008" group="4" rgba="0 0 1 0.2"/>
+    </default>
+    <default class="placepoint">
+      <site type="sphere" size="0.005" group="2" rgba="0 0 1 0"/>
+    </default>
+  </default>
+  <asset>
+    <material name="tube_body" rgba="1 1 1 0.2" specular="0.5" shininess="0.5"/>
+    <material name="tube_cap" rgba="0.9294 0.2706 0.0627 1" specular="0.5" shininess="0.3"/>
+    <mesh name="body" file="centrifuge_tube_15ml_body.STL" scale="0.001 0.001 0.001"/>
+    <mesh name="cap" file="centrifuge_tube_15ml_cap.STL" scale="0.001 0.001 0.001"/>
+  </asset>
+  <worldbody>
+    <body name="centrifuge_tube_15ml">
+      <inertial pos="0 0 0.05" mass="0.01" diaginertia="2.5e-06 2.5e-06 1.2e-06"/>
+      <!-- visuals -->
+      <geom type="mesh" mesh="body" material="tube_body" class="visual"/>
+      <geom type="mesh" mesh="cap" material="tube_cap" class="visual" pos="0 0 0.1186"/>
+      <!-- solution display geom: translucent cylinder inside tube, alpha=0 until filled
+           (LiquidDisplayMixin looks up geom named "solution") -->
+      <geom name="solution" type="cylinder" size="0.0065 0.04" pos="0 0 0.046" rgba="1 1 1 0" class="visual"/>
+      <!-- collision: base + main barrel + shoulder + cap (primitives only, cheap & robust) -->
+      <geom type="cylinder" size="0.0072 0.005" pos="0 0 0.005" class="collision"/>
+      <geom type="cylinder" size="0.0078 0.048" pos="0 0 0.056" class="collision"/>
+      <geom type="cylinder" size="0.0078 0.009" pos="0 0 0.1125" quat="1 -0.13052621 0 0" class="collision"/>
+      <geom type="cylinder" size="0.0113 0.0051" pos="0 0 0.1237" class="collision"/>
+      <!-- grasp sites: body barrel + skirt + cap (recommended finger positions) -->
+      <site class="grasppoint" pos="0 0 0.055"/>
+      <site class="grasppoint" pos="0 0 0.105"/>
+      <site class="grasppoint" pos="0 0 0.124"/>
+      <!-- keypoints for bbox / contain checks -->
+      <site class="keypoint" name="bottom_site" pos="0 0 0"/>
+      <site class="keypoint" name="top_site" pos="0 0 0.1288"/>
+      <!-- placepoint at tube mouth for dispense/insert skills -->
+      <site class="placepoint" name="placepoint" pos="0 0 0.1288"/>
+    </body>
+  </worldbody>
+</mujoco>

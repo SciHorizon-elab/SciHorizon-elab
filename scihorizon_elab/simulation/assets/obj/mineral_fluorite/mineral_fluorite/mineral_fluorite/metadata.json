@@ -1,0 +1,14 @@
+{
+  "uid": "mineral_fluorite",
+  "name": "mineral_fluorite",
+  "source": "local",
+  "original_path": "/tmp/minerals_input/mineral_fluorite.glb",
+  "keyword": "mineral",
+  "tags": [],
+  "categories": [],
+  "description": "Local GLB model: mineral_fluorite.glb",
+  "rotation": {
+    "axis": "x",
+    "degrees": 90.0
+  }
+}

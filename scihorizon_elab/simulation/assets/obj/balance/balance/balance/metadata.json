@@ -1,0 +1,14 @@
+{
+  "uid": "balance",
+  "name": "balance",
+  "source": "local",
+  "original_path": "/mnt/t_52/qinmaokai/workspace/SciHorizon-ELAB/scihorizon_elab/simulation/assets/obj/balance.glb",
+  "keyword": "balance",
+  "tags": [],
+  "categories": [],
+  "description": "Local GLB model: balance.glb",
+  "rotation": {
+    "axis": "x",
+    "degrees": 90.0
+  }
+}

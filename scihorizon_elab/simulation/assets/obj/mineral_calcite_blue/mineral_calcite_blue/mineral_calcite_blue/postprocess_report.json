@@ -1,0 +1,28 @@
+{
+  "uid": "mineral_calcite_blue",
+  "centered": true,
+  "scaled": true,
+  "scale_factor": 0.21831283763899614,
+  "orientation_warning": null,
+  "original_dims": {
+    "center": [
+      5.71283193,
+      4.5189878199999995,
+      -0.28474122
+    ],
+    "ranges": [
+      0.6870873999999993,
+      0.4518767600000002,
+      0.47605132000000006
+    ],
+    "max_dim": 0.6870873999999993
+  },
+  "final_dims": {
+    "ranges": [
+      0.15,
+      0.09865049773871562,
+      0.1039281145309898
+    ],
+    "max_dim": 0.15
+  }
+}

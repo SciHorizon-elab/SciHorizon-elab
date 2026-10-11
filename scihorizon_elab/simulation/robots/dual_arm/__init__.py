@@ -1,0 +1,1 @@
+from scihorizon_elab.simulation.robots.dual_arm.base import DualArm

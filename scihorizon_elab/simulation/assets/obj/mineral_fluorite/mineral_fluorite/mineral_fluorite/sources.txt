@@ -1,0 +1,14 @@
+Model UID: mineral_fluorite
+Model Name: mineral_fluorite
+
+Source Information:
+============================================================
+Source: Local File
+Original Path: /tmp/minerals_input/mineral_fluorite.glb
+File Name: mineral_fluorite.glb
+Keyword/Category: mineral
+Rotation: 90.0° around X axis
+
+Processing:
+Pipeline: process_local_glb.py
+Steps: GLB->OBJ (trimesh) -> [rotate] -> MJCF (obj2mjcf) -> postprocess -> bottom-align -> validate -> size_fix

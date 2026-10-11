@@ -1,0 +1,14 @@
+{
+  "uid": "mineral_aragonite",
+  "name": "mineral_aragonite",
+  "source": "local",
+  "original_path": "/tmp/minerals_input/mineral_aragonite.glb",
+  "keyword": "mineral",
+  "tags": [],
+  "categories": [],
+  "description": "Local GLB model: mineral_aragonite.glb",
+  "rotation": {
+    "axis": "x",
+    "degrees": 90.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "mineral_halite",
+  "centered": true,
+  "scaled": true,
+  "scale_factor": 0.046115668907131875,
+  "orientation_warning": null,
+  "original_dims": {
+    "center": [
+      15.373955695,
+      -3.44695877,
+      -2.461824235
+    ],
+    "ranges": [
+      3.24274589,
+      3.2526905399999997,
+      2.4780572100000002
+    ],
+    "max_dim": 3.2526905399999997
+  },
+  "final_dims": {
+    "ranges": [
+      0.1495413958132027,
+      0.15,
+      0.11427726582929097
+    ],
+    "max_dim": 0.15
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "mineral_fluorite",
+  "centered": true,
+  "scaled": true,
+  "scale_factor": 0.08871722382088687,
+  "orientation_warning": null,
+  "original_dims": {
+    "center": [
+      -6.137862825,
+      4.786265375,
+      1.30216876
+    ],
+    "ranges": [
+      1.69076525,
+      1.3748474900000005,
+      1.2785521800000001
+    ],
+    "max_dim": 1.69076525
+  },
+  "final_dims": {
+    "ranges": [
+      0.15,
+      0.12197265337708676,
+      0.11342959991974283
+    ],
+    "max_dim": 0.15
+  }
+}

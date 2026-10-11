@@ -1,0 +1,14 @@
+Model UID: basket
+Model Name: basket
+
+Source Information:
+============================================================
+Source: Local File
+Original Path: /tmp/basket_input/basket.glb
+File Name: basket.glb
+Keyword/Category: basket
+Rotation: 90.0° around X axis
+
+Processing:
+Pipeline: process_local_glb.py
+Steps: GLB->OBJ (trimesh) -> [rotate] -> MJCF (obj2mjcf) -> postprocess -> bottom-align -> validate -> size_fix

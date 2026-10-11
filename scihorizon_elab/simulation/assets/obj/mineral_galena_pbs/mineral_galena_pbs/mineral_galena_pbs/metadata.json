@@ -1,0 +1,14 @@
+{
+  "uid": "mineral_galena_pbs",
+  "name": "mineral_galena_pbs",
+  "source": "local",
+  "original_path": "/tmp/minerals_input/mineral_galena_pbs.glb",
+  "keyword": "mineral",
+  "tags": [],
+  "categories": [],
+  "description": "Local GLB model: mineral_galena_pbs.glb",
+  "rotation": {
+    "axis": "x",
+    "degrees": 90.0
+  }
+}

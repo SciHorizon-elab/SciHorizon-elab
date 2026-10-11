@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<!-- @bbox dx=0.4500 dy=0.4014 dz=0.1783 -->
+<mujoco model="basket">
+  <asset>
+    <texture type="2d" name="material_0" file="material_0.png"/>
+    <material name="material_0" texture="material_0" specular="0.4000000000000001" shininess="0.001"/>
+    <mesh file="basket.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_0.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_1.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_2.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_3.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_4.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_5.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_6.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_7.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_8.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_9.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_10.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_11.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_12.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_13.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_14.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_15.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_16.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_17.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_18.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_19.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_20.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_21.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_22.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_23.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_24.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_25.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_26.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_27.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_28.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_29.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_30.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_31.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_32.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_33.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_34.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_35.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_36.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+    <mesh file="basket/basket_collision_37.obj" scale="0.0012162161558655983 0.0012162161558655983 0.0012162161558655983"/>
+  </asset>
+  <worldbody>
+    <body name="basket">
+      <inertial pos="0 0 0.089166" mass="0.5" diaginertia="0.0008 0.0008 0.0005"/>
+      <geom material="material_0" mesh="basket" class="visual"/>
+      <geom mesh="basket_collision_0"  class="collision"/>
+      <geom mesh="basket_collision_1"  class="collision"/>
+      <geom mesh="basket_collision_2"  class="collision"/>
+      <geom mesh="basket_collision_3"  class="collision"/>
+      <geom mesh="basket_collision_4"  class="collision"/>
+      <geom mesh="basket_collision_5"  class="collision"/>
+      <geom mesh="basket_collision_6"  class="collision"/>
+      <geom mesh="basket_collision_7"  class="collision"/>
+      <geom mesh="basket_collision_8"  class="collision"/>
+      <geom mesh="basket_collision_9"  class="collision"/>
+      <geom mesh="basket_collision_10"  class="collision"/>
+      <geom mesh="basket_collision_11"  class="collision"/>
+      <geom mesh="basket_collision_12"  class="collision"/>
+      <geom mesh="basket_collision_13"  class="collision"/>
+      <geom mesh="basket_collision_14"  class="collision"/>
+      <geom mesh="basket_collision_15"  class="collision"/>
+      <geom mesh="basket_collision_16"  class="collision"/>
+      <geom mesh="basket_collision_17"  class="collision"/>
+      <geom mesh="basket_collision_18"  class="collision"/>
+      <geom mesh="basket_collision_19"  class="collision"/>
+      <geom mesh="basket_collision_20"  class="collision"/>
+      <geom mesh="basket_collision_21"  class="collision"/>
+      <geom mesh="basket_collision_22"  class="collision"/>
+      <geom mesh="basket_collision_23"  class="collision"/>
+      <geom mesh="basket_collision_24"  class="collision"/>
+      <geom mesh="basket_collision_25"  class="collision"/>
+      <geom mesh="basket_collision_26"  class="collision"/>
+      <geom mesh="basket_collision_27"  class="collision"/>
+      <geom mesh="basket_collision_28"  class="collision"/>
+      <geom mesh="basket_collision_29"  class="collision"/>
+      <geom mesh="basket_collision_30"  class="collision"/>
+      <geom mesh="basket_collision_31"  class="collision"/>
+      <geom mesh="basket_collision_32"  class="collision"/>
+      <geom mesh="basket_collision_33"  class="collision"/>
+      <geom mesh="basket_collision_34"  class="collision"/>
+      <geom mesh="basket_collision_35"  class="collision"/>
+      <geom mesh="basket_collision_36"  class="collision"/>
+      <geom mesh="basket_collision_37"  class="collision"/>
+          <site class="grasppoint" group="4" pos="0.0000 0.0000 0.1070"/>
+      <site class="grasppoint" group="4" pos="0.0000 0.0000 0.1427"/>
+      <site class="grasppoint" group="4" pos="0.0000 0.0000 0.1694"/>
+      <site class="boundpoint" group="3" name="bnd_p0"   pos="-0.2250 -0.2007 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_px"   pos="0.2250 -0.2007 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_py"   pos="-0.2250 0.2007 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_pxy"  pos="0.2250 0.2007 0.0000"/>
+      <site class="boundpoint" group="3" name="bnd_pz"   pos="-0.2250 -0.2007 0.1783"/>
+      <site class="boundpoint" group="3" name="bnd_pxz"  pos="0.2250 -0.2007 0.1783"/>
+      <site class="boundpoint" group="3" name="bnd_pyz"  pos="-0.2250 0.2007 0.1783"/>
+      <site class="boundpoint" group="3" name="bnd_pxyz" pos="0.2250 0.2007 0.1783"/>
+      <site name="top_site" pos="0 0 0.1783" size="0.01" rgba="1 0 0 0"/>
+      <site class="placepoint" group="2" name="place_c0" pos="-0.0700 -0.0600 0.0767"/>
+      <site class="placepoint" group="2" name="place_c1" pos=" 0.0700 -0.0600 0.0767"/>
+      <site class="placepoint" group="2" name="place_c2" pos="-0.0700  0.0600 0.0767"/>
+      <site class="placepoint" group="2" name="place_c3" pos=" 0.0700  0.0600 0.0767"/>
+      <site name="bottom_site" pos="0 0 0" size="0.01" rgba="0 1 0 0"/>
+      <!-- TEMPORARY placepoint markers -->
+      <geom name="pp_marker0" type="sphere" size="0.012" pos="-0.0700 -0.0600 0.0767" rgba="1 1 0 1" group="1" contype="0" conaffinity="0"/>
+      <geom name="pp_marker1" type="sphere" size="0.012" pos=" 0.0700 -0.0600 0.0767" rgba="0 1 0 1" group="1" contype="0" conaffinity="0"/>
+      <geom name="pp_marker2" type="sphere" size="0.012" pos="-0.0700  0.0600 0.0767" rgba="0 0 1 1" group="1" contype="0" conaffinity="0"/>
+      <geom name="pp_marker3" type="sphere" size="0.012" pos=" 0.0700  0.0600 0.0767" rgba="1 0 1 1" group="1" contype="0" conaffinity="0"/>
+</body>
+  </worldbody>
+  <compiler boundmass="0.015" boundinertia="1e-05" angle="radian"/>
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0" density="50"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh" density="50" friction="1.5 0.1 0.1" solimp="0.9 0.95 0.001" solref="0.02 1"/>
+    </default>
+    <default class="boundpoint">
+      <site type="sphere" size="0.01" group="3" rgba="1 0 0 1"/>
+    </default>
+    <default class="placepoint">
+      <site type="sphere" size="0.01" group="2" rgba="0 0 1 0"/>
+    </default>
+    <default class="grasppoint">
+      <site type="sphere" size="0.005" group="4" rgba="0 0 1 1"/>
+    </default>
+  </default>
+</mujoco>

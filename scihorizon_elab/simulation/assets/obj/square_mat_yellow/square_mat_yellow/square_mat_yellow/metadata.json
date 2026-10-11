@@ -1,0 +1,14 @@
+{
+  "uid": "square_mat_yellow",
+  "name": "square_mat_yellow",
+  "source": "local",
+  "original_path": "/tmp/square_mat_yellow_input/square_mat_yellow.glb",
+  "keyword": "square_mat_yellow",
+  "tags": [],
+  "categories": [],
+  "description": "Local GLB model: square_mat_yellow.glb",
+  "rotation": {
+    "axis": "x",
+    "degrees": 90.0
+  }
+}

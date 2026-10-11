@@ -1,0 +1,1 @@
+from scihorizon_elab.benchmark.tasks.autogen_tasks import *

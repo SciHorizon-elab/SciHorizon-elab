@@ -1,0 +1,28 @@
+{
+  "uid": "mineral_galena_pbs",
+  "centered": true,
+  "scaled": true,
+  "scale_factor": 0.08683496788582383,
+  "orientation_warning": null,
+  "original_dims": {
+    "center": [
+      1.05389225,
+      5.41172444,
+      1.364983165
+    ],
+    "ranges": [
+      1.7274147,
+      1.0068819800000002,
+      1.3137665500000002
+    ],
+    "max_dim": 1.7274147
+  },
+  "final_dims": {
+    "ranges": [
+      0.15,
+      0.08743256439811471,
+      0.11408087617871956
+    ],
+    "max_dim": 0.15
+  }
+}

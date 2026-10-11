@@ -1,0 +1,14 @@
+Model UID: balance
+Model Name: balance
+
+Source Information:
+============================================================
+Source: Local File
+Original Path: /mnt/t_52/qinmaokai/workspace/SciHorizon-ELAB/scihorizon_elab/simulation/assets/obj/balance.glb
+File Name: balance.glb
+Keyword/Category: balance
+Rotation: 90.0° around X axis
+
+Processing:
+Pipeline: process_local_glb.py
+Steps: GLB->OBJ (trimesh) -> [rotate] -> MJCF (obj2mjcf) -> postprocess -> bottom-align -> validate -> size_fix

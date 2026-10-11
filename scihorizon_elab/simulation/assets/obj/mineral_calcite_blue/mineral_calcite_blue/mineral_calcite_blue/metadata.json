@@ -1,0 +1,14 @@
+{
+  "uid": "mineral_calcite_blue",
+  "name": "mineral_calcite_blue",
+  "source": "local",
+  "original_path": "/tmp/minerals_input/mineral_calcite_blue.glb",
+  "keyword": "mineral",
+  "tags": [],
+  "categories": [],
+  "description": "Local GLB model: mineral_calcite_blue.glb",
+  "rotation": {
+    "axis": "x",
+    "degrees": 90.0
+  }
+}
